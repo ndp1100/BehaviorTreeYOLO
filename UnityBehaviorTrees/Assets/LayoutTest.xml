@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BehaviorTreeLayout id="Test">
+
+  <Node id="n1" position="473,26" type="BehaviorTrees.Sequencer" m_continueOnFail="False" outputs="n2,n3,n4,n5,n6" />
+  <Node id="n2" position="199,172" type="BehaviorTrees.FindDoor"   />
+  <Node id="n3" position="254,296" type="BehaviorTrees.MoveToDoor"   />
+  <Node id="n4" position="368,390" type="BehaviorTrees.InterractWithDoor"  OpenDoorAction="True" CloseDoorAction="False"  />
+  <Node id="n5" position="625,389" type="BehaviorTrees.MoveThroughDoor"   />
+  <Node id="n6" position="722,268" type="BehaviorTrees.InterractWithDoor"  OpenDoorAction="False" CloseDoorAction="True"  />
+
+</BehaviorTreeLayout>
